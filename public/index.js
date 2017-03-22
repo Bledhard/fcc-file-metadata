@@ -22,7 +22,7 @@ $("form").submit(function (e) {
 		},
 		success: function (data) {
 			console.log(data);
-			alert('file size: ' + data.size);
+			$("#meta").append('file size: ' + data.size);
 		}
 	});
 
